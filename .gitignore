@@ -1,0 +1,6 @@
+har_files/*
+images/*
+*.pdf
+*.txt
+
+.idea
