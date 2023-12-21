@@ -2,5 +2,9 @@ har_files/*
 images/*
 *.pdf
 *.txt
+proxy/*
+*.log
+*.jar
+*.har
 
 .idea

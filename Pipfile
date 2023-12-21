@@ -7,6 +7,8 @@ name = "pypi"
 haralyzer = "*"
 requests = "*"
 pillow = "*"
+browsermob-proxy = "*"
+selenium = "*"
 
 [dev-packages]
 

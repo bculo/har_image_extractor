@@ -5,6 +5,7 @@ import requests
 from PIL import Image
 from haralyzer import HarParser, HarPage
 
+PDF_NAME = "dergez.pdf"
 
 def get_har_parser(file_name: str) -> HarParser:
     file_path = os.path.join("har_files", file_name)
@@ -74,6 +75,6 @@ save_image_urls(extracted_urls)
 download_images(extracted_urls)
 compress_images("images")
 extracted_images = get_images_from_folder("images")
-create_pdf_from_images(extracted_images, "dergez.pdf")
+create_pdf_from_images(extracted_images, PDF_NAME)
 
 
